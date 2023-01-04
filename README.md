@@ -1,2 +1,7 @@
-# train-ticket-gen
-This program makes aims at mimicking a railway ticket generation system (on the front end). Use of HTML, CSS, Bootstrap for front end. Use of Python for back end.
+# Train Ticket Generator
+
+
+It generates a railway ticket by filling out details of ticket in a form. 
+
+It uses html,css for frontend and django for backend.
+
