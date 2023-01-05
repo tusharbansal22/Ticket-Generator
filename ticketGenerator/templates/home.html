@@ -5,15 +5,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Train ticket generation</title>
-  <link rel="stylesheet" href="./assets/styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: url('https://images.unsplash.com/photo-1615864691387-6e986695017a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG9nd2FydHMlMjBleHByZXNzfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+    }
+    input{
+      display: block;
+      align-items: center;
+      width:20vw;
+      padding: 2vh 5vw;
+      margin: 3vh 0;
+      text-align: center;
+      
+      border-radius: 5px;
+    }
+
+    .submit{
+      display: block;
+      width: 30.2vw;
+      margin: 5vh 0;
+      padding: 2vh 5vw;
+      font-family: "Poppins";
+      color: white;
+      background-color: brown;
+    }
+
+    p{
+      font-family: "Poppins";
+      font-size: larger;
+      font-weight: bold;
+      padding-top: 2vh;
+      color: white;
+    }
+  </style>
 </head>
 <body>
+  <p> TICKET GENERATOR</p>
   <form method="post" action="/ticket">
     {% csrf_token %}
+    <input type="text" name="start-station" placeholder="Enter Code of Starting Station" />
+    <input type="text" name="leaving-station" placeholder="Enter Code of Leaving Station" />
     <input type="text" name="name" placeholder="Enter Name"/>
+    <input type="text" name="coach" placeholder="Enter Coach"/>
     <input type="text" name="seat-number" placeholder="Enter Seat Number"/>
     <input type="date" name="date" placeholder="Enter Date"/>
-    <button type="submit" >Submit</button>
+    <input type="time" name="time" placeholder="Enter Time"/>
+
+    <button type="submit" class="submit">Submit</button>
     
   </form>
 </body>
