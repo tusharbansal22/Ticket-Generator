@@ -6,7 +6,7 @@ It uses html,css for frontend and django for backend.
 
 
 
-#To Run
+# To Run
 
 run the following commands
 ```
