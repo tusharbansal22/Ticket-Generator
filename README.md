@@ -11,11 +11,9 @@ It uses html,css for frontend and django for backend.
 run the following commands
 ```
 python manage.py migrate
-
 ```
 
 ```
 python3 manage.py runserver
-
 ```
 
