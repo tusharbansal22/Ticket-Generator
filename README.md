@@ -4,6 +4,8 @@ It generates a railway ticket by filling out details of ticket in a form.
 
 It uses html,css for frontend and django for backend.
 
+Theme is inspired from Harry Potter. Lumos!
+
 
 ## User Interface
 <img width="1440" alt="Screenshot 2023-02-22 at 7 22 51 PM" src="https://user-images.githubusercontent.com/104081946/220642295-17d95659-1431-4d28-a3de-1a51be192c98.png">
