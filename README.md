@@ -19,9 +19,7 @@ Theme is inspired from Harry Potter. Lumos Maxima!
 run the following commands
 ```
 python manage.py migrate
-```
 
-```
 python3 manage.py runserver
 ```
 
